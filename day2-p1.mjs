@@ -28,7 +28,7 @@ function checkPossibleGames(cubeCounts, gamesData) {
   return possibleGames;
 }
 
-const gamesData = await fs.readFileSync("day2.txt", {
+const gamesData = await fs.readFileSync("day2-p1.txt", {
   encoding: "utf8",
 });
 
